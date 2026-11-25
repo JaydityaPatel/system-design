@@ -1,0 +1,161 @@
+/* ============================================================================
+ * Design Tokens — Dark (Default) & Light (Retro Paper) Themes
+ * ============================================================================ */
+
+:root,
+[data-theme="dark"] {
+  /* Surfaces */
+  --bg-shell: #141210;
+  --bg-topbar: #1b1916;
+  --bg-sidebar: #181614;
+  --bg-panel: #1d1b18;
+  --bg-inset: #191714;
+  --bg-elevated: #23201c;
+  --bg-hover: #27241f;
+  --bg-input: #171512;
+  --bg-modal: #1e1c19;
+
+  /* Borders */
+  --border-subtle: #2b2824;
+  --border-card: #2f2b26;
+  --border-strong: #3d3832;
+  --border-tactile: #3b3630;
+  --shadow-tactile: 0 2px 0 #0d0c0a;
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.35);
+
+  /* Text */
+  --text-primary: #efece6;
+  --text-secondary: #a19a8d;
+  --text-muted: #6f6a61;
+  --text-brand-accent: #8cb369;
+
+  /* Olive / Primary Accent */
+  --olive-bg: #2a3622;
+  --olive-bg-hover: #334229;
+  --olive-border: #597242;
+  --olive-text: #cde4ae;
+  --olive-shadow: 0 2px 0 #182012;
+
+  /* Semantic Badges & Accents */
+  --amber-bg: #2e2418;
+  --amber-border: #664e2c;
+  --amber-text: #e5a93e;
+
+  --green-bg: #1e2d1c;
+  --green-border: #43663e;
+  --green-text: #7ec266;
+
+  --purple-bg: #251f31;
+  --purple-border: #57467a;
+  --purple-text: #b79fe8;
+
+  --coral-bg: #311e1d;
+  --coral-border: #6b3531;
+  --coral-text: #e86156;
+
+  --callout-bg: #241e1d;
+  --callout-border: #523b38;
+  --callout-text: #c7b5b1;
+  --callout-title: #e09a93;
+
+  /* Simulation Canvas */
+  --sim-spotlight: radial-gradient(ellipse 68% 58% at 52% 54%, rgba(62, 52, 40, 0.42) 0%, rgba(29, 27, 24, 0) 72%);
+  --sim-grid-stroke: rgba(255, 245, 225, 0.085);
+  --sim-platform-top: #26221e;
+  --sim-platform-side: #1c1916;
+  --sim-platform-stroke: #a89f91;
+  --sim-server-top: #4b3d4a;
+  --sim-server-left: #3a2f3a;
+  --sim-server-right: #2f252f;
+  --sim-server-stroke: #b9a4b8;
+  --sim-server-text: #f3eff4;
+  --sim-pill-bg: #181614;
+  --sim-pill-border: #8c857a;
+  --sim-pill-text: #efece6;
+  --sim-chart-bg: #181614;
+  --sim-chart-border: #454038;
+  --sim-chart-axis: #5c564c;
+  --sim-chart-curve: #d9d3c7;
+  --sim-link-stroke: #7a7367;
+  --sim-person-stroke: #1c1916;
+
+  /* Typography */
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+[data-theme="light"] {
+  /* Surfaces */
+  --bg-shell: #efece3;
+  --bg-topbar: #f6f3eb;
+  --bg-sidebar: #f2efe6;
+  --bg-panel: #faf8f2;
+  --bg-inset: #f2eee4;
+  --bg-elevated: #ffffff;
+  --bg-hover: #ebe6da;
+  --bg-input: #f2eee5;
+  --bg-modal: #faf8f2;
+
+  /* Borders */
+  --border-subtle: #dcd7ca;
+  --border-card: #d8d2c4;
+  --border-strong: #c2bba9;
+  --border-tactile: #26231f;
+  --shadow-tactile: 0 2px 0 #26231f;
+  --shadow-card: 0 2px 10px rgba(38, 35, 31, 0.05);
+
+  /* Text */
+  --text-primary: #1f1d1a;
+  --text-secondary: #5f5a51;
+  --text-muted: #8c8579;
+  --text-brand-accent: #558432;
+
+  /* Olive / Primary Accent */
+  --olive-bg: #c9e6a8;
+  --olive-bg-hover: #bcdf96;
+  --olive-border: #26231f;
+  --olive-text: #192910;
+  --olive-shadow: 0 2px 0 #26231f;
+
+  /* Semantic Badges & Accents */
+  --amber-bg: #f8e8c6;
+  --amber-border: #26231f;
+  --amber-text: #945d0d;
+
+  --green-bg: #d1ebd0;
+  --green-border: #26231f;
+  --green-text: #276926;
+
+  --purple-bg: #e5dbf7;
+  --purple-border: #26231f;
+  --purple-text: #553b8c;
+
+  --coral-bg: #f6cac8;
+  --coral-border: #26231f;
+  --coral-text: #b8332c;
+
+  --callout-bg: #f9ebea;
+  --callout-border: #dfaeaa;
+  --callout-text: #592e2b;
+  --callout-title: #8e342f;
+
+  /* Simulation Canvas */
+  --sim-spotlight: radial-gradient(ellipse 68% 58% at 52% 54%, rgba(226, 217, 198, 0.65) 0%, rgba(250, 248, 242, 0) 75%);
+  --sim-grid-stroke: rgba(85, 75, 58, 0.1);
+  --sim-platform-top: #e8e3d9;
+  --sim-platform-side: #d4cec2;
+  --sim-platform-stroke: #3b352f;
+  --sim-server-top: #cdb8c9;
+  --sim-server-left: #b99fb4;
+  --sim-server-right: #a48a9f;
+  --sim-server-stroke: #332c2f;
+  --sim-server-text: #221d20;
+  --sim-pill-bg: #ffffff;
+  --sim-pill-border: #26231f;
+  --sim-pill-text: #1f1d1a;
+  --sim-chart-bg: #ffffff;
+  --sim-chart-border: #26231f;
+  --sim-chart-axis: #9e9689;
+  --sim-chart-curve: #26231f;
+  --sim-link-stroke: #7a7266;
+  --sim-person-stroke: #26231f;
+}
